@@ -1,0 +1,46 @@
+:root{
+    --color: #fdfcfc;
+}
+body{
+    min-height: 100vh;
+    background: #022;
+    overflow: hidden;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 233, 192);
+}
+#head{
+    text-align: center;
+}
+.container{
+    border-radius: 20px;
+    width: 450px;
+    height: 600px;
+    color: rgb(255, 242, 242);
+    background-color: rgb(34, 34, 34);
+    box-shadow: inset 3.9px 3.9px 14px #111111 inset -3.9px -3.9px 14px #333333;
+}
+i{
+    margin: 0 20px;
+    color: var(--color);
+    cursor: pointer;
+}
+.link-to-business{
+    text-align: center;
+    text-transform: initial;
+}
+.link{
+    text-decoration: none;
+}
+.sign-in{
+    text-decoration: none;
+}
+.jumbotron{
+    background-color: rgb(12, 0, 37);
+    height: 80px;
+    text-align: center;
+    border-radius: 15px;
+    opacity: 40%;
+}
